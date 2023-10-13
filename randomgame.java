@@ -5,10 +5,6 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class randomgame {
-    // Spelet startas i main
-    public static void main(String[] args) {
-        randomGame();
-    }
 
     // Metod randomGame används för att skriva spelkoden
     private static void randomGame() {
@@ -74,5 +70,10 @@ public class randomgame {
                 }
             }
         }
+    }
+
+    // Spelet startas i main
+    public static void main(String[] args) {
+        randomGame();
     }
 }
